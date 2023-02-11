@@ -340,44 +340,8 @@ ul{
     color: #ffee10;
     box-shadow: 0 0 15px #ffee10;
     text-shadow: 0 0 15px #ffee10;
-  }
-
-
-klp {
-    font-family:cursive;
-    font-size: 3mm;
-    margin: 3;
-    padding-bottom: 1em;
-  }
-  
-  klp {
-    font-size: 2em;
-  }
-  
-  klp::before {
-  content : '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0px;
-  height: 0px;
-  border-radius: 50%;
-  background: #d1cda7;
-  transition: .5s;
-  transition: scale(.9);
-  z-index: -1;
-  }
-  
-  klp:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #ffffff;
-  }
-  
-  klp:hover {
-  color: #ffffff;
-  box-shadow: 0 20 15px #d1cda7;
-  text-shadow: 0 0 15px #f0d904;
-  }
+  } 
+	
 al{
   font-style: italic;
   font-family:fantasy;
@@ -406,6 +370,7 @@ h3{
   
 }
 
+
 @media ( max-width : 768px){
   .parent{
     grid-template-columns: repeat(1,1fr);
@@ -417,30 +382,36 @@ h3{
     transform: translate(-38%, -60%);
   
   } 
-  #main-div{scale:95%}
-  #SBA-div{width: 2%;}
-  #BA-div{width: 65%;}
+  #main-div{scale:90%}
+  #SBA-div{width: 1%;}
+  #BA-div{width: 66%;}
   #SB-div{width: 33%;}
+  h3{scale: 90%;}
+  h4{scale: 90%;}
+  
   al{
     font-style: italic;
     font-family:fantasy;
-    font-size: 70px;
+    font-size: 64px;
     color: #235D5B;
 }}
-@media(max-width :375px)  {
+@media(max-width :360px)  {
   .parent{
     grid-template-columns: repeat(1,1fr);
   }
- ul{
+  ul{
     scale: 40%;
     top: 12%;
     left: 37%;
     transform: translate(-36%, -60%);
   }
-  #main-div{scale:95%}
-  #SBA-div{width: 2%;}
-  #BA-div{width: 65%;}
+  #main-div{scale:85%}
+  #SBA-div{width: 1%;}
+  #BA-div{width: 66%;}
   #SB-div{width: 33%;}
+  h4{scale: 70%;}
+  h3{scale: 70%;}
+ 
    
   
   al{
@@ -457,12 +428,7 @@ h3{
 <body>
 
     <div id="logo-div">
-       
-        <form action = "/test" method = "post">
-          <klp>Home</klp>
-        </form>
-
-
+      
         <ul>
             <li>
               
