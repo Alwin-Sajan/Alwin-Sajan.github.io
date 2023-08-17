@@ -142,6 +142,10 @@ h2{
   border-top-right-radius: 18%;
   /* padding-bottom: 20px; */
 }
+img#ASP2{
+  opacity: 0;
+}
+
 .sid{
   position: relative;
   display: flex;
@@ -171,7 +175,7 @@ li{
 }
 .boxp{
   display: flex;
-  grid-row: 3;
+  
 }
 box{
   width: auto;
@@ -219,34 +223,86 @@ box{
     font-family:fantasy;
     font-size: 64px;
     color: #235D5B;
-}}
-@media(max-width :360px)  {
+}}*/
+
+@media(max-width :414px)  {
   .parent{
     grid-template-columns: repeat(1,1fr);
   }
-  ul{
-    scale: 60%;
-    top: 12%;
-    left: 7%;
-    transform: translate(-40%, -60%);
+  body{
+    overflow-x: hidden;
   }
-  #main-div{scale:85%}
-  #SBA-div{width: 1%;}
-  #BA-div {
-    width: 66%;
-    height: 589px;}
 
-  #SB-div{width: 33%;}
-  h4{scale: 70%;
-    line-height: .9}
-  h3{scale: 70%;}
+  .main{
+    width: auto;
+    height: auto;
+  }
+  .boxp{
+    margin-left: -30px;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .contact{
+    display: grid;
+    justify-content: start;
+  }
+  .menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .sid img#sideer{
+    height: 0;
+  }
+  .contact a{
+    justify-content: flex-start;
+  }
+  /* .photo img{
+    border-radius: 50%;
+    width: 300px;
+    margin-left: -150px;
+  } */
+  .profile{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .Text h2 {
+    font-size: small;
+  }
+  .Text h1{
+    font-size: 40px;
+    padding-right: 12px;
 
-   
-  
-  al{
-    font-style: italic;
-    font-family:fantasy;
-    font-size: 50px;
-    color: #235D5B;
-  
-}} */
+  }
+  .bio{
+    font-size: 90%;
+  }
+ 
+  img#ASP2{
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  .photo img#ASP{
+    display: fixed;
+    opacity: 0;
+  }
+  box{
+    font-size: 120%;
+    height: 70%;
+    min-height: 70px;
+    margin-top: 20px;
+    border-radius: 8%;
+  }
+  .MainLayyer{
+    margin-top: 254px;
+    align-items: center;
+    /* min-height: 900px; */
+    width: 100%;
+
+
+  }
+
+}
