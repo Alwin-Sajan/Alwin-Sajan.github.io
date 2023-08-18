@@ -60,7 +60,7 @@ a#home{
   color: white;
 }
 .contact{
-  background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220), rgb(47, 178, 221));
+  background-image: -webkit-linear-gradient(bottom, rgb(47, 178, 221),rgb(238, 67, 250));
   justify-items: center;
   align-items: center;
   display: flex;
