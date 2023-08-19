@@ -38,8 +38,9 @@ body {
 
 }
 
-.menu a:hover ,
-.menu a.active {
+.menu a:hover 
+/* ,.menu a.active */
+ {
 
     background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(241, 46, 255));
     color: #fff;
@@ -262,16 +263,9 @@ footer{
     grid-template-columns: repeat(2,1fr);
   }
   
-  .menu{
-    display: grid;
-    background-color:black ;
-    color:white ;
-    padding-bottom: 10px;
-    grid-template-columns: repeat(2,1fr);
-  }
-  .menu a{
-    color: #fff;
-  }
+/* menu */
+
+  
   .sid img#sideer{
     height: 0;
   }
@@ -291,7 +285,7 @@ footer{
     display: flex;
     align-items: center;
     height: 100px;
-    margin-top: 17px;
+    margin-top: 12px;
     background-color: aliceblue;
     width: 107%;
   }
@@ -308,11 +302,11 @@ footer{
     grid-template-columns: repeat(1,1fr);
   }
   .Text h2 {
-    font-size: small;
+    font-size:18px ;
   }
   .Text h1{
     font-size: 40px;
-    padding-right: 12px;
+    padding-right: 13%;
 
   }
   .bio{
@@ -348,8 +342,65 @@ footer{
     align-items: center;
     /* min-height: 900px; */
     width: 100%;
+  }
 
 
+
+.menu{
+  display: contents;
+  padding: 0;
+  margin: 0;
+  /* width: fit-content; */
+}
+
+  
+  /* new  menu  */
+  .menu {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  a#home{
+    margin: 0;
+  }
+  .menu #myLinks {
+    display: none;
+  }
+  
+  .menu a {
+    color: white;
+    height: 60px;
+    padding: 19px 16px 14px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 0;
+    border-radius: 0;
+    display: block;
+  }
+  
+  .menu a.icon {
+    background: rgb(225, 144, 231);
+    display: block;
+    position: absolute;
+    background-image: url(https://www.svgrepo.com/show/315606/menu-left.svg);
+    right: 0;
+    background-position: center;
+    background-size:contain;
+    top: 0;
+    height: 60px;
+    width: 50px;
+
+  }
+  
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: black;
+    color: white;
   }
 
 }
