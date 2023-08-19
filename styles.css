@@ -60,7 +60,7 @@ a#home{
   color: white;
 }
 .contact{
-  background-image: -webkit-linear-gradient(bottom, rgb(47, 178, 221),rgb(238, 67, 250));
+  background-image: -webkit-linear-gradient(bottom, rgb(47, 178, 221),rgb(227, 138, 234));
   justify-items: center;
   align-items: center;
   display: flex;
@@ -261,10 +261,7 @@ footer{
     align-items: end;
     grid-template-columns: repeat(2,1fr);
   }
-  .contact{
-    display: grid;
-    justify-content: start;
-  }
+  
   .menu{
     display: grid;
     background-color:black ;
@@ -278,8 +275,28 @@ footer{
   .sid img#sideer{
     height: 0;
   }
+  .contact{
+    display: grid;
+    justify-content: center;
+    padding-left:0 ;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+  }
   .contact a{
     justify-content: flex-start;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top: 12px;
+    background-color: aliceblue;
+    width: 100%;
+  }
+  a img{
+    border-radius: 10px;
   }
   /* .photo img{
     border-radius: 50%;
