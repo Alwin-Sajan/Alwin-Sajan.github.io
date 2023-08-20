@@ -305,7 +305,7 @@ footer{
     font-size:18px ;
   }
   .Text h1{
-    font-size: 40px;
+    font-size: 238%;
     padding-right: 13%;
 
   }
@@ -370,7 +370,7 @@ footer{
   
   .menu a {
     color: white;
-    height: 60px;
+    height: 65px;
     padding: 19px 16px 14px 20px;
     text-decoration: none;
     font-size: 19px;
@@ -388,13 +388,16 @@ footer{
     background-position: center;
     background-size:contain;
     top: 0;
-    height: 60px;
+    border-radius:5px;
+    margin-right: 9px;
+    margin-top:7.5px;
+    height: 50px;
     width: 50px;
 
   }
   
   .menu a:hover {
-    background-color: #ddd;
+    background-color: rgb(225, 144, 231);
     color: black;
   }
   
