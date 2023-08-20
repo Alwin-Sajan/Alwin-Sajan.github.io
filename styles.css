@@ -302,10 +302,10 @@ footer{
     grid-template-columns: repeat(1,1fr);
   }
   .Text h2 {
-    font-size:18px ;
+    font-size:102% ;
   }
   .Text h1{
-    font-size: 238%;
+    font-size: 220%;
     padding-right: 13%;
 
   }
