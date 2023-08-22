@@ -389,10 +389,19 @@ footer{
   }
   
   a#home{
-    margin: 0;
+    margin: 0 2.7%;
+    border-radius: 44px;
+    z-index: 1;
+    position: relative;
   }
   .menu #myLinks {
     display: none;
+    background-color: rgb(30 29 29);
+    border-radius: 0 0 44px 44px;
+    margin: -31px 2.7% 0 2.7%;
+    padding-top: 22.5px;
+    z-index: -1;
+  
   }
   
   .menu a {
@@ -415,11 +424,12 @@ footer{
     background-position: center;
     background-size:contain;
     top: 0;
-    border-radius:5px;
-    margin-right: 9px;
-    margin-top:7.5px;
+    border-radius: 5px 55px 55px 5px;
+    margin-right: 19px;
+    margin-top: 27px;
     height: 50px;
     width: 50px;
+    z-index: 2;
 
   }
   
