@@ -101,16 +101,25 @@ a img{
 
 }
 .MainLayyer{
+  position: relative;
   width: 50%;
+  /* z-index: 1; */
 }
 .Text{
   
   display: flex;
   justify-content:center;
   padding-top: 50px;
-  
+  position: relative;
   align-items: flex-start;
 }
+/* #buble{
+  position:absolute;
+  margin-bottom:100px ;
+  bottom: -400.8px;
+  right: -50px;
+  z-index: -1;  
+} */
 h2{
   padding-right: 10px;
   font-size: 30px;
@@ -121,6 +130,7 @@ h2{
   font-size: 80px;
 }
 .bio{
+  position: relative;
   display: flex;
   padding-left: 3%;
   padding-right: 3%;
@@ -253,7 +263,7 @@ footer{
   .main{
     width: auto;
     height: auto;
-    padding: 0 0 20px 0;
+    padding: 0 0 46px 0;
   }
   .boxp{
     margin-left: -30px;
@@ -274,7 +284,9 @@ footer{
     justify-content: center;
     padding-left:0 ;
     padding-bottom: 30px;
-    padding-top: 10px;
+    border-radius: 35px 35px 0 0;
+    margin-top: -2.5%;
+    padding-top: 7%;
 
   }
   .contact a{
@@ -326,6 +338,9 @@ footer{
    
     border-radius: 50%;
   }
+  img#ASP2:hover{
+    size: 100%;
+  }
   .photo img#ASP{
     display: fixed;
     opacity: 0;
@@ -345,7 +360,19 @@ footer{
   }
 
 
+/* old menu  */
+  /* .menu{
+    padding-top: 0;
 
+    display: grid;
+    background-color:black ;
+    color:white ;
+    padding-bottom: 10px;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .menu a{
+    color: #fff;
+  } */
 .menu{
   display: contents;
   padding: 0;
@@ -406,8 +433,13 @@ footer{
     color: white;
   }
   .skill{
-    border-radius: 20px 20px 0 0;
-    margin-top: -20px;
+    border-radius: 44px 44px 0 0;
+    margin-top: -46px;
+  }
+
+  #buble{
+    opacity: 0;
+    display: none;
   }
 
 }
