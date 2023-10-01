@@ -292,6 +292,12 @@ a#webs{
   justify-content: center;
   align-items: center;
 }
+#QRCode{
+  height: 250px;
+}
+.bio h3{
+  margin-right: 20px;
+}
 
 /* 
 @media ( max-width : 768px){
@@ -322,7 +328,7 @@ a#webs{
     color: #235D5B;
 }}*/
 
-@media(max-width :414px)  {
+@media(max-width :450px)  {
   .parent{
     grid-template-columns: repeat(1,1fr);
   }
@@ -463,6 +469,7 @@ a#webs{
     overflow: hidden;
     background-color: #333;
     position: relative;
+    margin:0px auto ;
   }
   .menu a:hover {
     background-image: none;
@@ -506,7 +513,7 @@ a#webs{
     top: 0;
     border-radius: 5px 55px 55px 5px;
     margin-right: 19px;
-    margin-top: 31.5px;
+    margin-top: 30px;
     height: 50px;
     width: 50px;
     z-index: 2;
