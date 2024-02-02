@@ -6,14 +6,14 @@ let text = document.getElementById('Text');
 
 
 
-let bio = document.getElementById('bio');
+let tag = document.getElementById('tag');
 var wid = window.innerWidth;
 
 if (wid > 450) {
     window.addEventListener('scroll', () => {
         let value = window.scrollY;
         let endf = window.scrollY.toFixed();
-        bio.style.left = value * 1.5 + 'px';
+        tag.style.left = value * 1.5 + 'px';
         text.style.left = value * -1.5 + 'px';
         text.style.top = value * -0.2 + 'px';
         // buble.style.left = value * 1 + 'px';
@@ -29,6 +29,8 @@ if (wid > 450) {
 
 //     });
 // }
+
+
 
     
 
