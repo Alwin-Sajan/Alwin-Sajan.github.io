@@ -15,7 +15,8 @@ body {
 }
 
 .main{
-  background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(241, 46, 255));
+  /* background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(241, 46, 255)); */
+  background-color: #f3d915;
   height: 700px;
   
   padding-left: 10px;
@@ -188,19 +189,20 @@ li{
   display: flex;
   
 }
-box{
+.box{
   width: auto;
   min-width: 110px;
   padding: 20px ;
   margin-right: 25px;
-  background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(227, 138, 234));
+  /* background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(227, 138, 234)); */
+  background-color: #f3d915;
   height: 100px;
   font-size: 25px;
   color: black;
   display:flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10%;
+  border-radius: 12px;
 
 }
 .feeds{
@@ -208,13 +210,14 @@ box{
   background-image: -webkit-linear-gradient(bottom,rgb(227, 138, 234), rgb(45, 176, 220));
 }
 
-footer h4{
+footer a h4{
     /* background: black; */
     display:flex;
     color: #fff;
     justify-content: center;
     align-items: center;
     margin: 0;
+    text-decoration: none;
 
 }
 footer{
@@ -428,7 +431,7 @@ a#webs{
     display: fixed;
     opacity: 0;
   }
-  box{
+  .box{
     font-size: 120%;
     height: 70%;
     min-height: 70px;
