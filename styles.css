@@ -11,7 +11,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
     margin: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .main{
@@ -159,16 +159,23 @@ h1{
   min-height: 40vh;
   justify-content: center;
   background-color: black;
+  z-index: -1;
 }
 .bio h2{
   text-align: center;
   color: aliceblue;
   margin: 3vh auto;
+  padding-left: 0px;
 }
 .bio h3{
   text-align: center;
   color:antiquewhite;
   /* line-height: 50px; */
+  margin: 16px;
+  /* letter-spacing: 0.04cm; */
+  /* line-height: 1.2ch; */
+  word-spacing: 0.12cm;
+  font-weight: 500;
 }
 
 .photo{
@@ -237,16 +244,15 @@ li{
   font-size: 25px;
   color: black;
   display:flex;
-  /* justify-content: center;
-  align-items: center; */
-  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   border-radius: 12px;
 }
 .box:hover{
-  
+  color:#fff;
   outline: 6px solid goldenrod;
-  justify-content: center;
-  align-items: center;
+  
 
 }
 .feeds{
@@ -393,6 +399,10 @@ a#webs{
   .skill{
     margin-top: -46px;
     padding-top: 46px;
+    padding-left: 0px;
+  }
+  .skill h2{
+    padding-left: 20px;
   }
 
   .boxp{
@@ -629,7 +639,5 @@ a#webs{
   }
   postelement a{
     font-size: 18px;
-  }
-
-  
+  } 
 }
