@@ -15,7 +15,8 @@ body {
 }
 
 .main{
-  background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(241, 46, 255));
+  /* background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(241, 46, 255)); */
+  background-color: #f3d915;
   height: 700px;
   
   padding-left: 10px;
@@ -27,13 +28,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Menu titles button */
 .menu a{
   font-size: 25px;
   text-decoration: none;
   color: black;
   padding: 6px 15px;
-  border-radius: 20px;
+  border-radius: 4px;
   margin: 0 10px;
+  /* min-width: 100px; */
+  text-align: center;
   /* font-weight: 600; */
 
 }
@@ -41,8 +46,10 @@ body {
 .menu a:hover 
 /* ,.menu a.active */
  {
-
-    background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(241, 46, 255));
+    background-color: #333;
+    /* min-width: 100px; */
+    outline: 3px solid goldenrod ;
+    /* background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(241, 46, 255)); */
     color: #fff;
 }
 
@@ -109,7 +116,7 @@ a img{
   
   display: flex;
   justify-content:center;
-  padding-top: 50px;
+  padding-top: 15vh;
   position: relative;
   align-items: flex-start;
 }
@@ -126,19 +133,42 @@ h2{
   font-weight: 900;
  
 }
- h1{
+h1{
   font-size: 80px;
 }
+
+#tag{
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  font-size:larger;
+  /* height: auto; */
+  padding: 8px;
+  /* background-color: aqua; */
+  outline: 4px solid black;
+  font-stretch:ultra-expanded;
+}
+
 .bio{
   position: relative;
-  display: flex;
-  padding-left: 3%;
-  padding-right: 3%;
-  font-size: 130%;
+  /* display: flex; */
+  margin: auto;
+  padding: 5vh 5vw;
+  font-size: 110%;
+  min-height: 40vh;
   justify-content: center;
+  background-color: black;
+}
+.bio h2{
+  text-align: center;
+  color: aliceblue;
+  margin: 3vh auto;
 }
 .bio h3{
-  color:black;
+  text-align: center;
+  color:antiquewhite;
+  /* line-height: 50px; */
 }
 
 .photo{
@@ -179,28 +209,44 @@ section h2{
 .skill{
   background-color: black;
   color: #fff;
+  min-height:60vh ;
   padding: 20px 0 50px 20px ;
+  margin:auto ;
 }
 li{
   font-size: 30px;
 }
 .boxp{
-  display: flex;
+  margin-top: 15vh;
+  /* display: flex; */
+  /* margin-left: -30px; */
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    grid-template-columns: repeat(5,1fr);
   
 }
-box{
+.box{
   width: auto;
   min-width: 110px;
   padding: 20px ;
-  margin-right: 25px;
-  background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(227, 138, 234));
+  margin: 25px;
+  /* background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(227, 138, 234)); */
+  background-color: #f3d915;
   height: 100px;
   font-size: 25px;
   color: black;
   display:flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* text-align: center; */
+  border-radius: 12px;
+}
+.box:hover{
+  
+  outline: 6px solid goldenrod;
   justify-content: center;
   align-items: center;
-  border-radius: 10%;
 
 }
 .feeds{
@@ -208,13 +254,14 @@ box{
   background-image: -webkit-linear-gradient(bottom,rgb(227, 138, 234), rgb(45, 176, 220));
 }
 
-footer h4{
+footer a h4{
     /* background: black; */
     display:flex;
     color: #fff;
     justify-content: center;
     align-items: center;
     margin: 0;
+    text-decoration: none;
 
 }
 footer{
@@ -340,7 +387,7 @@ a#webs{
     width: auto;
     z-index: 1;
     height: auto;
-    border-radius: 0 0 44px 44px;
+    /* border-radius: 0 0 44px 44px; */
     position: relative;
   }
   .skill{
@@ -396,6 +443,12 @@ a#webs{
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
+  
+  .Text{
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+  }
+
   .Text h2 {
     font-size:102% ;
   }
@@ -428,7 +481,7 @@ a#webs{
     display: fixed;
     opacity: 0;
   }
-  box{
+  .box{
     font-size: 120%;
     height: 70%;
     min-height: 70px;
@@ -440,6 +493,7 @@ a#webs{
     align-items: center;
     /* min-height: 900px; */
     width: 100%;
+    padding-bottom: 10vh;
   }
 
 
@@ -503,7 +557,8 @@ a#webs{
   }
   
   .menu a.icon {
-    background: rgb(225, 144, 231);
+    /* background: rgb(225, 144, 231); */
+    background-color: goldenrod;
     display: block;
     position: absolute;
     background-image: url(https://www.svgrepo.com/show/315606/menu-left.svg);
@@ -521,7 +576,8 @@ a#webs{
   }
   
   .menu a:hover {
-    background-color: rgb(225, 144, 231);
+    background-color: gold;
+    /* background-color: rgb(225, 144, 231); */
     color: black;
   }
   
