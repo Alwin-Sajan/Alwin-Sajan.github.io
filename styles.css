@@ -350,6 +350,7 @@ a#webs{
 }
 .bio h3{
   margin-right: 20px;
+  
 }
 
 /* 
@@ -468,7 +469,7 @@ a#webs{
 
   }
   .bio{
-    font-size: 90%;
+    font-size: 70%;
   }
  .photo{
   width: 100%;
@@ -639,5 +640,7 @@ a#webs{
   }
   postelement a{
     font-size: 18px;
-  } 
+  }
+
+  
 }
