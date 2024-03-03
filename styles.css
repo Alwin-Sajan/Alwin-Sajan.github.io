@@ -12,6 +12,7 @@ body {
     font-size: 100%;
     margin: 0px;
     overflow-x: hidden;
+    background-color: black;
 }
 
 .main{
@@ -151,9 +152,13 @@ h1{
 }
 
 .bio{
+  margin: 50px;
+  border: #f3d915 8px solid;
+  border-style: ridge;
+  border-radius: 24px;
   position: relative;
   /* display: flex; */
-  margin: auto;
+  /* margin: auto; */
   padding: 5vh 5vw;
   font-size: 110%;
   min-height: 40vh;
@@ -168,7 +173,7 @@ h1{
   padding-left: 0px;
 }
 .bio h3{
-  text-align: center;
+  /* text-align: center; */
   color:antiquewhite;
   /* line-height: 50px; */
   margin: 16px;
@@ -259,9 +264,18 @@ li{
   /* padding-top: 20px; */
   background-image: -webkit-linear-gradient(bottom,rgb(227, 138, 234), rgb(45, 176, 220));
 }
-
+footer h4{
+  color: white;
+  font-weight: 100;
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
 footer a h4{
     /* background: black; */
+    text-align:center;
+    font-weight: 300;
     display:flex;
     color: #fff;
     justify-content: center;
@@ -469,7 +483,16 @@ a#webs{
 
   }
   .bio{
-    font-size: 70%;
+    font-size: 80%;
+    margin:24px 12px;
+    border-width: 4px;
+  }
+  .bio h3{
+    padding: 12px 4px ;
+    margin: 0;
+  }
+  .bio h2{
+    padding: 0;
   }
  .photo{
   width: 100%;
@@ -596,10 +619,10 @@ a#webs{
     background-color: black;
     color: white;
   }
-  /* .skill{
-    border-radius: 44px 44px 0 0;
-    margin-top: -46px;
-  } */
+  .skill{
+    /* border-radius: 44px 44px 0 0; */
+    margin-top: -21px;
+  }
 
   #buble{
     opacity: 0;
