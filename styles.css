@@ -297,11 +297,11 @@ footer{
 
 /* Third screen */
 .projects{
-    position: relative;
+    position: block;
     padding-top: 20px;
     width: 100vw;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #fccb06;
 }
 .third-view{
@@ -342,8 +342,25 @@ footer{
   background-color: black;
   background-blend-mode:overlay ;
 }
+
 .events-list li img:hover{
   opacity: 1;
+}
+
+.third-view .events-list li a{
+  background-color: #fbfcd4;
+  margin: 10px;
+  width: 95%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: 3px solid #f3d915;
+  padding: 8px;
+
 }
 
  .events-list li h4{
@@ -730,6 +747,41 @@ a#webs{
   }
   postelement a{
     font-size: 18px;
+  }
+
+  /* projects */
+
+  .third-view{
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+  .events-list{
+    padding-left: 0px;
+
+  }
+  .third-view .events-list li{
+    width: 90vw;
+    height: 100%s;
+    display: inline-block;
+    margin-top: 32px;
+    margin-right: 13px;
+  }
+
+  .third-view .events-list li h4{
+    margin-bottom: 0;
+    
+  }
+
+  .third-view .events-list li a{
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 8px;
+    /* margin-bottom: 30px; */
+    display: inline-block;
   }
 
   
