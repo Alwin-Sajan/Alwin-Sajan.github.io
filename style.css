@@ -308,7 +308,7 @@ footer{
 }
 .third-view{
     width: 93vw;
-    height: 95vh;
+    min-height: 95vh;
     /* border-radius: 22px; */
     /* background-color: #fbfcd4; */
     padding: 20px;
@@ -788,5 +788,8 @@ a#webs{
     display: inline-block;
   }
 
+  #readMore{
+    display: none;
+  }
   
 }
