@@ -11,6 +11,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
     margin: 0px;
+    width: 100vw;
     overflow-x: hidden;
     background-color: black;
 }
@@ -643,17 +644,18 @@ a#webs{
   min-height: 70vh;
   filter: blur(2px);
   /* transform: translateX(100%); */
-  transition: all  ease 1s ;
+  transition: all  ease 2s ;
 }
 
-.hiddenR{
+/* .hiddenR{
   opacity: 0;
-  /* height: 100vh; */
+
   min-height: 100vh;
   filter: blur(4px);
+  width: 100vw;
   transform: translateX(100%);
   transition: all  ease 2.1s ;
-}
+} */
 
 .show{
   filter: blur(0);
