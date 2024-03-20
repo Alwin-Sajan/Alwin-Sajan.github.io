@@ -15,8 +15,21 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
+const observerNew = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('Norma');
+        } else {
+            entry.target.classList.remove('Norma');
+        }
+    });
+});
+
 const hiddenElements = document.querySelectorAll('.hiddenL, .hiddenR, .hiddenB, .hiddenD, .hiddenLm');
 hiddenElements.forEach((el) => observer.observe(el));
+
+const hiddenElementsN = document.querySelectorAll('.betweenWaves');
+hiddenElementsN.forEach((el) => observerNew.observe(el));
 
 window.addEventListener('scroll', () => {
     const value = window.scrollY;
