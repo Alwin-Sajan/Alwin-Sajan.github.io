@@ -339,7 +339,7 @@ footer{
     width: 100vw;
     margin: 0;
     min-height: 100vh;
-    background-image: url(/resource/imgbg2.jpeg);
+    background-image: url('imgbg2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #fccb06; */
@@ -419,13 +419,15 @@ footer{
   /* background-image: -webkit-linear-gradient(bottom, rgb(45, 176, 220),rgb(227, 138, 234), rgb(47, 178, 221)); */
 }
 #works h2{
-  padding-top: 30px;
-  margin-top: 0px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   font-weight: 900;
   color: #fff;
 }
 #workMain{
   background-color: #fff;
+  margin-right: 32px;
   border-radius: 15px;
   padding: 10px 10px 30px 10px;
   min-height: 100px;
@@ -668,6 +670,23 @@ a#webs{
   min-height: 100vh;
 }
 
+.betweenWaves{
+  color: white;
+  height: 100px;
+  background-color:#fccb06;
+  padding-bottom: 100px;
+
+  --mask: conic-gradient(from -47.5deg at bottom,#0000,#000 1deg 94deg,#0000 95deg) 50%/65.48px 100%;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.Norma{
+  --mask: conic-gradient(from -60deg at bottom,#0000,#000 1deg 119deg,#0000 120deg) 50%/103.92px 100%;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  transition: all ease 2.5s;
+}
 
 @keyframes animate {
 
@@ -982,6 +1001,7 @@ a#webs{
     padding-left: 10px;
   }
   #workMain{
+    margin-right: 0px;
     padding: 10px 15px 30px 15px;
   }
   #workMain h3{
