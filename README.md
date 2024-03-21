@@ -1,18 +1,11 @@
-
-<h4>This is my profile website</h4> 
-
-  [![Static Badge](https://img.shields.io/badge/⚡-Alwin_Sajan-f29111)](https://alwin-sajan.github.io/)
-
-<p></p>
 <p align="center">
-  
+
   <img src="https://usagif.com/wp-content/uploads/gifs/starfall-gif-45.gif" />
-  
+
 </p>
 
 <h1 align="center">Hi 👋,I'm Alwin Sajan</h1>
 <h3 align="center">A passionate Techie from India</h3>
-
 
 
 - 🔭 I’m currently doing **B tech in CSE**
@@ -74,6 +67,8 @@ Feel free to check out my projects and collaborations on my GitHub profile. Let'
 
 </p>
 
+[![](https://visitcount.itsvg.in/api?id=Alwin-Sajan&label=Profile%20Views&color=1&icon=0&pretty=true)](https://visitcount.itsvg.in)
+
 <div align="center">
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alwin-sajan&layout=compact&theme=algolia)](https://github.com/alwin-sajan/github-readme-stats)
@@ -88,5 +83,4 @@ Feel free to check out my projects and collaborations on my GitHub profile. Let'
   <a href="#contact"><h6>@Alwin-Sajan</h6></a>
   <img src="https://cdn.wallpapersafari.com/84/22/Jz6bAs.gif" />
 </div>
-
 
