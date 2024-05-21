@@ -374,6 +374,7 @@ footer{
     margin: 20px;
     border-radius: 5px;
     background-color: #fbfcd4;
+    margin-top: 30px;
 }
 .third-view .events-list li img{
   background-size: contain;
