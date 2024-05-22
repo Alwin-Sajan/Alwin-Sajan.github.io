@@ -186,6 +186,7 @@ h1{
 
 .bio{
   margin-top: 200px;
+  margin-right: 80px;
   margin: 50px;
   border: #f3d915 8px solid;
   border-style: ridge;
@@ -431,7 +432,7 @@ footer{
 #workMain{
   background-color: #fff;
   margin-right: 32px;
-  border-radius: 32px;
+  border-radius: 16px;
   padding: 10px 40px 30px 40px;
   min-height: 100px;
 
@@ -733,7 +734,8 @@ form.container-body:hover{
 #formres textarea {
   width: 100%;
   border: none;
-  border-bottom:2px ridge #000;
+  border-bottom:2px ridge #f2ff00;
+  /* outline: none; */
   /* border-style: ridge; */
   
 }
@@ -741,8 +743,9 @@ form.container-body:hover{
  input:focus, 
  textarea:focus {
   border: none;
-  border-bottom: 550px solid #ccc;
+  border-bottom: 550px solid #f6ff00;
    /* background-color: #ccc; */
+   outline-color: yellow;
 
 }
 
@@ -764,6 +767,10 @@ form.container-body:hover{
 
 #formres button:hover {
   background-color: #218838;
+}
+
+input:focus {
+  border: 3px solid #ffe30c;
 }
 
 /* form above */
@@ -856,11 +863,11 @@ form.container-body:hover{
     justify-content: center;
     align-items: end;
     grid-template-columns: repeat(2,1fr);
-    padding-left: 30px;
+    padding-left: 40px;
   }
   li.box{
-    font-size: 120%;
-    height: 70%;
+    font-size: 100%;
+    height: 60%;
     margin: 16px;
     /* font-size: 20px; */
     min-height: 89px;
@@ -874,20 +881,32 @@ form.container-body:hover{
   .sid img#sideer{
     height: 0;
   }
+  #contact{
+    width: 100vw;
+  }
+
   ul.contact{
     display: grid;
     justify-content: center;
     padding-left:0 ;
     padding-bottom: 30px;
     border-radius: 35px 35px 0 0;
-    margin-top: -2.5%;
+    /* margin-top: -2.5%; */
     padding-top: 4%;
-    margin: -2.5% 16px 24px 16px;
+    padding-right: 0;
+    margin: 0;
     height: inherit;
     grid-template-columns: repeat(1,1fr);
     border: none;
+    width: auto;
+    margin: 20px;
 
   }
+  ul.contact li {
+    margin: 10px 0;
+    width: 100%;
+  }
+
   ul.contact li a{
     justify-content: flex-start;
     padding-left: 30px;
@@ -896,14 +915,18 @@ form.container-body:hover{
     display: flex;
     align-items: center;
     height: 100px;
-    margin-top: 12px;
-    background-color: aliceblue;
-    width: 95%;
-    margin-left: 45px;
+    margin-top: 6px auto;
+    background-color: white;
+    min-width: 100%;
+    margin-right: 0;
+    /* width: ; */
+    /* margin-left: 45px; */
     flex-wrap: wrap
   }
-  a img{
+  ul.contact li a img {
     border-radius: 10px;
+    width: 50px;
+    margin-left: 0;
   }
   #MDID{
     font-size: 75%;
@@ -936,6 +959,7 @@ form.container-body:hover{
     font-size: 80%;
     margin:24px 12px;
     border-width: 4px;
+    
   }
   .bio h3{
     padding: 12px 4px ;
@@ -1158,14 +1182,14 @@ form.container-body:hover{
   }
 
   .formmenu {
-    padding:24px 8px ;
+    padding: 26px 32px;
   }
 
   form.container-body {
     max-width: 98vh;
     border: 4px solid #000000;
     border-radius: 11px;
-    padding: 35px;
+    padding: 40px;
   }
   
 }
